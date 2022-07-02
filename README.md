@@ -15,3 +15,7 @@ $$\tilde{H}=g_{0} \mathbb{I}+g_{1} Z_{0}+g_{2} Z_{1}+g_{3} Z_{0} Z_{1}+g_{4} X_{
 In R=0.75A, $$g_0=−0.4804,g_1=0.3435,g_2=−0.4347,\\\\g_3=0.5716,g_4=0.0910,g_5=0.0910.$$
 In this attempt, the anstaz is UCC. UCC predicts that the ground state can be expressed as:
 $$|\phi(\theta)\rangle=e^{-i\theta X_0Y_1}|01\rangle$$
+
+
+## Note
+If you use the default optimize in scipy.optimize.minimize, the result will fall into the Saddle Points.
